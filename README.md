@@ -13,14 +13,18 @@ This program is a simple contract written in Solidity, a programming language us
 
 ## Getting Started
 
-Clone the repository:
+1. Clone the repository:
+   
+```
+git clone <https://github.com/Isheta20/My-Smiles-Dapp.git>
+```
 
-git clone <https://github.com/RIDAMSINHA/CREATING-MY-OWN-ATM.git>
+2. Install the dependencies :
 
-Install the dependencies :
-
+```
 cd Assessment_frontend           
 npm i
+```
 
 Open two additional terminals in your VS code.
 
@@ -28,15 +32,16 @@ In the second terminal type: npx hardhat node.
 
 In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js.
 
-Back in the first terminal, type npm npm start to launch the front-end.
+Back in the first terminal, type npm start to launch the front-end.
 
 Open the application in your browser, the project will be running on your localhost. Typically at:
 
+```
 http://localhost:3000
+```
 
 Connect your MetaMask wallet and interact with the dapp interface.
 ## Project Structure
-
 - artifacts/ - Contains the contract ABI and artifacts
 - Assessment_frontend/ - Contains the react app
   - src/ - Contains the application source code
